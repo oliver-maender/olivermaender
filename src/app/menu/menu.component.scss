@@ -1,0 +1,37 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo-container {
+    height: 80px;
+}
+
+.logo-container img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.menu-links {
+    a {
+        color: black;
+        text-decoration: none;
+        margin-left: 32px;
+        opacity: 0.4;
+        transition: all 225ms ease-in-out;
+
+        &:hover {
+            opacity: 1;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+        }
+    }
+}

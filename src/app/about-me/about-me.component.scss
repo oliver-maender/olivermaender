@@ -1,0 +1,30 @@
+.about-me-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.picture-and-text {
+    height: 50%;
+    margin: 64px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    img {
+        height: 100%;
+        width: 50%;
+        object-fit: cover;
+    }
+}
+
+.text {
+    text-align: center;
+    margin: 32px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 700;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        margin-bottom: 32px;
+    }
+}
