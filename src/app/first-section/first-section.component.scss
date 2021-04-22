@@ -1,6 +1,6 @@
 .section-container {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-image: url("../../assets/img/first-section-img.jpg");
     background-size: cover;
     display: flex;

@@ -1,0 +1,16 @@
+<div class="my-work-container">
+    <h2>My work</h2>
+</div>
+<div class="project" *ngFor="let project of projects; let i = index;">
+    <div class="project-img-container">
+        <img src="{{ project.image }}">
+    </div>
+    <div class="project-text-container">
+        <h3>{{ project.name }}</h3>
+        <span>{{ project.description }}</span>
+        <div class="my-work-buttons">
+            <button mat-stroked-button color="primary">JS Doc</button>
+            <button (click)="openProductLink(i)" mat-flat-button color="primary">Try out</button>
+        </div>
+    </div>
+</div>
