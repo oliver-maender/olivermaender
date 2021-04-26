@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  opened = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleSidenav() {
+    if (this.opened == false) {
+      this.opened = true;
+    }
+    else {
+      this.opened = false;
+    }
   }
 
 }

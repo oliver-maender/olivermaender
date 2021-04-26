@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     height: 100%;
@@ -10,8 +14,23 @@ body {
     font-family: "Karla", sans-serif !important;
 }
 
-.read-more {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
+mat-icon {
+    font-family: 'Material Icons' !important;
 }
+
+// .read-more {
+//     position: absolute;
+//     bottom: 0px;
+//     left: 50%;
+// }
+
+// .read-more-rel {
+//     position: relative;
+//     left: -50%;
+// }
+
+// @media (max-width: 1050px) {
+//     .read-more {
+//         display: none;
+//     }
+// }

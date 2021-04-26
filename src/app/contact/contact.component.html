@@ -3,21 +3,21 @@
 </div>
 <div class="contact-text">
     <span>Get in touch with me by using the form below or by emailing me <a
-            href="mailto:abc@def.ghj">abc@def.com</a></span>
+            href="mailto:oliver.maender@gmail.com">oliver.maender@gmail.com</a></span>
 </div>
 <div class="contact-form-container">
-    <form class="contact-form">
+    <form action="http://oliver-maender.developerakademie.com/olivermaender/send_mail.php" method="POST" class="contact-form">
         <mat-form-field appearance="fill">
             <mat-label>Name</mat-label>
-            <input matInput required>
+            <input name="name" matInput required>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>E-Mail</mat-label>
-            <input matInput required>
+            <input name="mail" matInput required>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Message</mat-label>
-            <textarea matInput matTextareaAutosize matAutosizeMinRows=10 required></textarea>
+            <textarea name="message" matInput matTextareaAutosize matAutosizeMinRows=10 required></textarea>
         </mat-form-field>
         <div class="submit-btn">
             <button type="submit" mat-flat-button color="primary">Send</button>

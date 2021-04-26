@@ -17,6 +17,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { DataPrivacyComponent } from './data-privacy/data-privacy.component';
 import { StartPageComponent } from './start-page/start-page.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { ContactSuccessComponent } from './contact-success/contact-success.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,8 @@ import { StartPageComponent } from './start-page/start-page.component';
     FooterComponent,
     LegalNoticeComponent,
     DataPrivacyComponent,
-    StartPageComponent
+    StartPageComponent,
+    ContactSuccessComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +42,10 @@ import { StartPageComponent } from './start-page/start-page.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

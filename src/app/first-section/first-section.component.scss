@@ -1,7 +1,7 @@
 .section-container {
     position: relative;
-    height: calc(100vh - 80px);
-    background-image: url("../../assets/img/first-section-img.jpg");
+    height: calc(100vh - 80px - (100vh - 100%)); // this is needed so that the height of the browser toolbar is subtracted
+    background-image: url('/olivermaender/assets/img/first-section-img.jpg');
     background-size: cover;
     display: flex;
     justify-content: flex-start;
@@ -16,6 +16,7 @@
     text-align: center;
     color: white;
     margin-left: 64px;
+    margin-right: 64px;
 
     h2 {
         font-size: 36px;
@@ -25,6 +26,33 @@
 
     span {
         font-size: 18px;
-        width: 400px;
+        max-width: 400px;
+    }
+}
+
+.read-more {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
+
+.read-more-rel {
+    position: relative;
+    left: -50%;
+}
+
+@media (max-width: 1050px) {
+    .section-container {
+        background-repeat: no-repeat;
+        background-size: auto 50vh;
+        align-items: flex-end;
+        justify-content: center;
+        // max-height: calc(100vh - 80px);
+    }
+    .text-container {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 64px;
+        color: black;
     }
 }

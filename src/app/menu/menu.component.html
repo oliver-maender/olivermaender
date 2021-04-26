@@ -1,11 +1,55 @@
-<header>
+<!-- <header>
     <div class="logo-container">
-        <a routerLink="/"><img src="../../assets/img/logo.jpg"></a>
+        <a routerLink="/"><img src="assets/img/logo.jpg"></a>
     </div>
     <div class="menu-links">
         <a routerLink="/">HOME</a>
-        <a href="#">ABOUT ME</a>
-        <a href="#">MY WORK</a>
-        <a href="#">CONTACT</a>
+        <a href="#about-me">ABOUT ME</a>
+        <a href="#my-work">MY WORK</a>
+        <a href="#contact">CONTACT</a>
     </div>
-</header>
+    <div class="menu-mobile">
+        <img src="assets/img/menu-line.svg">
+    </div>
+</header> -->
+
+<mat-toolbar [class.mobile-toolbar-opened]="opened">
+    <mat-toolbar-row>
+        <div class="logo-container">
+            <a routerLink="/"><img src="assets/img/logo.jpg"></a>
+        </div>
+        <div class="menu-links">
+            <a routerLink="/">HOME</a>
+            <a href="#about-me">ABOUT ME</a>
+            <a href="#my-work">MY WORK</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <!-- <div class="menu-mobile">
+        <img src="assets/img/menu-line.svg">
+    </div> -->
+        <button mat-icon-button class="menu-icon" (click)="toggleSidenav()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+        <a routerLink="/">HOME</a>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+        <a href="#about-me">ABOUT ME</a>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+        <a href="#my-work">MY WORK</a>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+        <a href="#contact">CONTACT</a>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<!-- <mat-sidenav-container class="sidenav-container" *ngIf="opened">
+    <div class="menu-links-res">
+        <a routerLink="/">HOME</a>
+        <a href="#about-me">ABOUT ME</a>
+        <a href="#my-work">MY WORK</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+</mat-sidenav-container> -->

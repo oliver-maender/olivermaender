@@ -8,6 +8,7 @@ footer {
 .links {
     display: flex;
     flex-direction: column;
+    text-align: center;
     
     a {
         text-decoration: none;
@@ -22,4 +23,13 @@ footer {
 .logo-container img {
     height: 100%;
     object-fit: contain;
+}
+
+@media (max-width: 1050px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 64px;
+        padding-bottom: 8px;
+    }
 }

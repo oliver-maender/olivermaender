@@ -9,7 +9,7 @@
         <h3>{{ project.name }}</h3>
         <span>{{ project.description }}</span>
         <div class="my-work-buttons">
-            <button mat-stroked-button color="primary">JS Doc</button>
+            <button (click)="openJSDocLink(i)" mat-stroked-button color="primary">JS Doc</button>
             <button (click)="openProductLink(i)" mat-flat-button color="primary">Try out</button>
         </div>
     </div>
