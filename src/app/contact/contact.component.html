@@ -6,21 +6,21 @@
             href="mailto:oliver.maender@gmail.com">oliver.maender@gmail.com</a></span>
 </div>
 <div class="contact-form-container">
-    <form action="http://oliver-maender.developerakademie.com/olivermaender/send_mail.php" method="POST" class="contact-form">
+    <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" ngNativeValidate class="contact-form">
         <mat-form-field appearance="fill">
             <mat-label>Name</mat-label>
-            <input name="name" matInput required>
+            <input name="name" ngModel #name="ngModel" matInput required>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>E-Mail</mat-label>
-            <input name="mail" matInput required>
+            <input type="email" name="email" ngModel #email="ngModel" matInput required>
         </mat-form-field>
         <mat-form-field appearance="fill">
             <mat-label>Message</mat-label>
-            <textarea name="message" matInput matTextareaAutosize matAutosizeMinRows=10 required></textarea>
+            <textarea name="message" ngModel #message="ngModel" matInput matTextareaAutosize matAutosizeMinRows=10 required></textarea>
         </mat-form-field>
         <div class="submit-btn">
-            <button type="submit" mat-flat-button color="primary">Send</button>
+            <button mat-flat-button color="primary">Send</button>
         </div>
     </form>
 </div>
