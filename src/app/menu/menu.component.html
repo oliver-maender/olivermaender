@@ -16,10 +16,10 @@
 <mat-toolbar [class.mobile-toolbar-opened]="opened">
     <mat-toolbar-row>
         <div class="logo-container">
-            <a routerLink="/"><img src="assets/img/logo.jpg"></a>
+            <a href="#first-section"><img src="assets/img/logo.png"></a>
         </div>
         <div class="menu-links">
-            <a routerLink="/">HOME</a>
+            <a href="#first-section">HOME</a>
             <a href="#about-me">ABOUT ME</a>
             <a href="#my-work">MY WORK</a>
             <a href="#contact">CONTACT</a>
@@ -32,16 +32,16 @@
         </button>
     </mat-toolbar-row>
     <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a routerLink="/">HOME</a>
+        <a href="#first-section" (click)="toggleSidenav()">HOME</a>
     </mat-toolbar-row>
     <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#about-me">ABOUT ME</a>
+        <a href="#about-me" (click)="toggleSidenav()">ABOUT ME</a>
     </mat-toolbar-row>
     <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#my-work">MY WORK</a>
+        <a href="#my-work" (click)="toggleSidenav()">MY WORK</a>
     </mat-toolbar-row>
     <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#contact">CONTACT</a>
+        <a href="#contact" (click)="toggleSidenav()">CONTACT</a>
     </mat-toolbar-row>
 </mat-toolbar>
 

@@ -3,25 +3,33 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 80px;
     height: calc(100vh - (100vh - 100%)); // this is needed so that the height of the browser toolbar is subtracted
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .picture-and-text {
+    height: 70%;
     margin: 64px;
     background-color: rgb(230, 230, 230);
     display: flex;
 
     img {
+        width: 100%;
         height: 100%;
-        width: 50%;
         object-fit: cover;
+        object-position: 50% 30%;
     }
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin: 32px;
+    font-size: 16px;
+    margin: 32px 96px 32px 96px;
 
     h2 {
         font-size: 32px;
@@ -48,11 +56,25 @@
     .picture-and-text {
         flex-direction: column;
         margin: 0;
+        padding-top: 8px;
+    }
+
+    .picture-container {
+        width: 100%;
+        max-height: 50%;
 
         img {
-            width: 100%;
-            height: 50%;
             object-fit: contain;
         }
     }
+
+    .text {
+        margin: 8px;
+    }
 }
+
+// @media (max-width: 1050px) and (orientation: landscape) {
+//     .about-me-container {
+//         height: auto;
+//     }
+// }
