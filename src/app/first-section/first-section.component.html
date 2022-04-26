@@ -1,16 +1,19 @@
-<div class="section-container">
+<div [class.hide-overflow]="hideOverflow" class="section-container">
     <div class="image-container">
-        <img src="assets/img/first-section.jpg">
+        <img [@divState] (@divState.start)="animationStarted()" (@divState.done)="animationEnded()" src="assets/img/first-section.jpg">
     </div>
-    <div class="text-container">
-        <h2>I AM OLIVER MÄNDER</h2>
-        <span>
-            Hello, I am Oliver, a German front-end developer. I have been interested in technology since I was a little child.
+    <div [@textZoomOut] class="text-container">
+        <h2 i18n="@@firstSectionMyName">I AM<br>OLIVER MÄNDER</h2>
+        <span i18n="@@firstSectionJobName">
+            German front-end developer
         </span>
     </div>
     <div class="read-more">
-        <div class="read-more-rel">
+        <div class="read-more-rel desktop">
             <a href="#about-me"><img src="assets/img/read-more-arrow-white.svg"></a>
+        </div>
+        <div class="read-more-rel mobile">
+            <a href="#about-me"><img src="assets/img/read-more-arrow.svg"></a>
         </div>
     </div>
 </div>

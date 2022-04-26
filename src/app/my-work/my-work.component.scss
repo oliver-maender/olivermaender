@@ -1,10 +1,10 @@
 .my-work-container {
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 112px;
 
     h2 {
-        font-size: 32px;
+        font-size: 38px;
         font-weight: 700;
         text-decoration: underline;
         text-underline-offset: 10px;
@@ -14,18 +14,20 @@
 }
 
 .project {
-    height: 400px;
+    min-height: 310px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(230, 230, 230);
     margin-bottom: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .project-img-container {
     max-width: 500px;
-    margin-left: 8px;
-    margin-right: 8px;
 
     img {
         width: 100%;
@@ -39,7 +41,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 8px;
+    padding: 8px 0 8px 8px;
+    box-sizing: border-box;
 
     h3 {
         font-size: 24px;
@@ -48,21 +51,51 @@
 }
 
 .my-work-buttons {
-    margin-top: 32px;
+    // margin-top: 32px;
     button {
-        width: 100px;
+        min-width: 80px;
         height: 50px;
         transition: all 225ms ease-in-out;
         &:hover {
             opacity: 0.8;
         }
-        margin-left: 32px;
+        margin: 8px;
     }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.highlight {
+  font-weight: 700;
+  color: blue;
+}
+
+
+@media (min-width: 1050px) {
+  .project-img-container {
+    min-width: 500px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1050px) {
     .project {
-        height: 600px;
         flex-direction: column;
+        justify-content: center;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
     }
+
+    .project-text-container {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 1450px) {
+  .project {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }

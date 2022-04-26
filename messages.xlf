@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aboutMeHeadline" datatype="html">
+        <source>About me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutMeText" datatype="html">
+        <source>My name is Oliver Mänder. I am 23 years old and a German front-end developer living at Lake Constance. I joined the <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;highlight&quot; href=&quot;https://www.developerakademie.com/&quot;&gt;"/>Developer Akademie<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> in <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>January 2021<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, there I started learning my main skills <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>HTML<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>CSS<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>JavaScript<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> and <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>Angular<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. I have built several projects over the last months, some of them are still getting new features. Furthermore, I am currently getting more experience every day with Angular and I also started learning <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>React<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> in <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;highlight&quot;&gt;"/>February 2022<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>. My interests are everything that has to do with computers and other technical devices + watching different kinds of sports like American Football, Soccer, Motorsports, Basketball and more.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">9,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutMeForwarding" datatype="html">
+        <source>Want to learn more about my work?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactHeadline" datatype="html">
+        <source>Contact me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactHintText" datatype="html">
+        <source>Get in touch with me by using the form below or by emailing me <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+            href=&quot;mailto:contact@olivermaender.de&quot;&gt;"/>contact@olivermaender.de<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactFormName" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactFormEmail" datatype="html">
+        <source>E-Mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactFormMessage" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactFormSendButton" datatype="html">
+        <source>Send</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstSectionMyName" datatype="html">
+        <source>I AM<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>OLIVER MÄNDER</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/first-section/first-section.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="firstSectionJobName" datatype="html">
+        <source> German front-end developer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/first-section/first-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerLegalNotice" datatype="html">
+        <source>Legal Notice</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerDataPrivacy" datatype="html">
+        <source>Data Privacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerLogoHintText" datatype="html">
+        <source>Created my logo at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;http://logomakr.com/&quot;&gt;"/>LogoMakr.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuHomeDesktop" datatype="html">
+        <source>HOME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuAboutMeDesktop" datatype="html">
+        <source>ABOUT ME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuMyWorkDesktop" datatype="html">
+        <source>MY WORK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuContactDesktop" datatype="html">
+        <source>CONTACT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuGermanLanguageDesktop" datatype="html">
+        <source>DEUTSCH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuEnglishLanguageDesktop" datatype="html">
+        <source>ENGLISH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuHomeMobile" datatype="html">
+        <source>HOME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuAboutMeMobile" datatype="html">
+        <source>ABOUT ME</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuMyWorkMobile" datatype="html">
+        <source>MY WORK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuContactMobile" datatype="html">
+        <source>CONTACT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuGermanLanguageMobile" datatype="html">
+        <source>DEUTSCH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuEnglishLanguageMobile" datatype="html">
+        <source>ENGLISH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkHeadline" datatype="html">
+        <source>My work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkTryItOutButton" datatype="html">
+        <source>Try it out</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkSportsHomeDescription" datatype="html">
+        <source>This is my favourite project. You can &lt;b&gt;see and also change the match results of different soccer leagues&lt;/b&gt; I implemented. If you change or add the results for matches, the standings will &lt;b&gt;dynamically change&lt;/b&gt;, so you will always be up-to-date with your favourite leagues.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkJoinDescription" datatype="html">
+        <source>Join is a group project of three Developer Akademie students including me. It is a &lt;b&gt;custom version of a Kanban board&lt;/b&gt;. You can add things that have to be done to a pool of ideas (the backlog) and push a certain amount to the board which shows the next &quot;sprint&quot; of features which should be implemented. On the board you can distribute them between to-do, in progress, testing and done.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkQuizWithFriendsDescription" datatype="html">
+        <source>This is a &lt;b&gt;quiz application&lt;/b&gt; you can use to quiz with your friends (as the name suggests).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkCommPlatDescription" datatype="html">
+        <source>This is a communication platform with different public channels and also private messages &lt;b&gt;similar to Discord or Slack&lt;/b&gt;. You have the possibility to reply to a message which creates an own thread for every topic, so you don&apos;t have to spam the main channel with answers.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkElPolloLocoDescription" datatype="html">
+        <source>El Pollo Loco is a &lt;b&gt;jump-and-run game&lt;/b&gt; I built 7 weeks after I joined the Developer Akademie and was the final pure JavaScript project before I started with Angular. You have to control Pepe to &lt;b&gt;collect coins and tabasco bottles, avoid the chickens and reach the final boss&lt;/b&gt;, el pollo loco (the crazy chicken), and defeat it.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="myWorkMyHomepageDescription" datatype="html">
+        <source>This is the page you are currently viewing. It is about me and my work.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/my-work/my-work.component.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

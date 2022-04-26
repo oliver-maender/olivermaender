@@ -1,15 +1,18 @@
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 32px;
+    align-items: center;
+    margin-top: 112px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, .2);
 }
 
 .links {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+
     a {
         text-decoration: none;
         color: gray;

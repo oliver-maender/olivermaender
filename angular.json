@@ -4,6 +4,14 @@
   "newProjectRoot": "projects",
   "projects": {
     "olivermaender": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de-DE": {
+            "translation": "messages.de.xlf"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

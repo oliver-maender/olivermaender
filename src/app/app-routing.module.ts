@@ -6,10 +6,11 @@ import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { StartPageComponent } from './start-page/start-page.component';
 
 const routes: Routes = [
-  { path: '', component: StartPageComponent },
   { path: 'legal-notice', component: LegalNoticeComponent },
   { path: 'data-privacy', component: DataPrivacyComponent },
   { path: 'contact-success', component: ContactSuccessComponent },
+  { path: '', component: StartPageComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

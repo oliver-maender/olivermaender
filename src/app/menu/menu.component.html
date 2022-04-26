@@ -13,36 +13,44 @@
     </div>
 </header> -->
 
-<mat-toolbar [class.mobile-toolbar-opened]="opened">
-    <mat-toolbar-row>
-        <div class="logo-container">
-            <a href="#first-section"><img src="assets/img/logo.png"></a>
-        </div>
-        <div class="menu-links">
-            <a href="#first-section">HOME</a>
-            <a href="#about-me">ABOUT ME</a>
-            <a href="#my-work">MY WORK</a>
-            <a href="#contact">CONTACT</a>
-        </div>
-        <!-- <div class="menu-mobile">
+<mat-toolbar [class.mobile-toolbar-opened]="opened" class="mat-toolbar-container">
+  <mat-toolbar-row>
+    <div class="logo-container">
+      <a href="#first-section"><img src="assets/img/logo.png"></a>
+    </div>
+    <div class="menu-links">
+      <a href="#first-section" i18n="@@menuHomeDesktop">HOME</a>
+      <a href="#about-me" i18n="@@menuAboutMeDesktop">ABOUT ME</a>
+      <a href="#my-work" i18n="@@menuMyWorkDesktop">MY WORK</a>
+      <a href="#contact" i18n="@@menuContactDesktop">CONTACT</a>
+      <a class="german-colors language-option margin-to-links" href="/de-DE/" i18n="@@menuGermanLanguageDesktop">DEUTSCH</a>
+      <a class="english-colors language-option" href="/en-US/" i18n="@@menuEnglishLanguageDesktop">ENGLISH</a>
+    </div>
+    <!-- <div class="menu-mobile">
         <img src="assets/img/menu-line.svg">
     </div> -->
-        <button mat-icon-button class="menu-icon" (click)="toggleSidenav()">
-            <mat-icon>menu</mat-icon>
-        </button>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#first-section" (click)="toggleSidenav()">HOME</a>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#about-me" (click)="toggleSidenav()">ABOUT ME</a>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#my-work" (click)="toggleSidenav()">MY WORK</a>
-    </mat-toolbar-row>
-    <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
-        <a href="#contact" (click)="toggleSidenav()">CONTACT</a>
-    </mat-toolbar-row>
+    <button mat-icon-button class="menu-icon" (click)="toggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar margin-top" *ngIf="opened">
+    <a href="#first-section" (click)="toggleSidenav()" i18n="@@menuHomeMobile">HOME</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+    <a href="#about-me" (click)="toggleSidenav()" i18n="@@menuAboutMeMobile">ABOUT ME</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+    <a href="#my-work" (click)="toggleSidenav()" i18n="@@menuMyWorkMobile">MY WORK</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar" *ngIf="opened">
+    <a href="#contact" (click)="toggleSidenav()" i18n="@@menuContactMobile">CONTACT</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar margin-to-links" *ngIf="opened">
+    <a class="german-colors language-option" href="/de-DE/" i18n="@@menuGermanLanguageMobile">DEUTSCH</a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="mobile-toolbar margin-bottom" *ngIf="opened">
+    <a class="english-colors language-option" href="/en-US/" i18n="@@menuEnglishLanguageMobile">ENGLISH</a>
+  </mat-toolbar-row>
 </mat-toolbar>
 
 <!-- <mat-sidenav-container class="sidenav-container" *ngIf="opened">

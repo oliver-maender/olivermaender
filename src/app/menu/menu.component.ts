@@ -11,8 +11,7 @@ export class MenuComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   toggleSidenav() {
     if (this.opened == false) {

@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
   submitComplete = false;
 
   ngOnInit(): void {
-    this.endpoint = "http://oliver-maender.developerakademie.com/olivermaender/send_mail.php";
+    this.endpoint = "https://www.olivermaender.de/send_mail.php";
   }
 
   // sendMail() {
